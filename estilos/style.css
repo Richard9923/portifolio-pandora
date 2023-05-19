@@ -162,6 +162,11 @@ body {
         font-size: 1.2rem;
         
     }
+
+    .rodape {
+        padding: 18px;
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 390px) {
@@ -169,6 +174,11 @@ body {
     .cabecalho__menu__link {
         white-space: nowrap;
         font-size: 0.8rem;
+    }
+
+    .rodape {
+        padding: 9px;
+        font-size: 1.3rem;
     }
 }
     
