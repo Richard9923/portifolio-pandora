@@ -45,3 +45,9 @@
         width: auto;
     }
 }
+
+@media (max-width: 410px) {
+    .informacoes__curriculo__experiencias {
+        font-size: 1.02rem;
+    }
+}
