@@ -1,0 +1,47 @@
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: #32FAB2;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-segundaria: 'Montserrat', sans-serif;
+}
+
+.informacoes__curriculo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.informacoes__curriculo__funcao {
+    font-size: 1rem;
+    font-family: var(--fonte-primaria) ;
+    line-height: 30px;
+}
+
+.informacoes__curriculo__experiencias {
+    font-size: 1.25rem;
+    font-family: var(--fonte-primaria) ;
+    line-height: 56px;
+}
+
+.informacoes__curriculo__conhecimentos {
+    font-size: 1.25rem;
+    font-family: var(--fonte-primaria);
+    line-height: 56px;
+}
+
+.informacoes__curriculo__habilidades {
+    font-size: 1.5rem;
+    font-family: var(--fonte-segundaria);
+    line-height: 36px;
+}
+
+@media (max-width: 1200px) {
+    .informacoes__curriculo {
+        width: auto;
+    }
+}

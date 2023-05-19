@@ -1,0 +1,4 @@
+vh = viewport Heigth: Altura da tela.
+box-sizing: border-box; width: 100%: Impedir conteúdo de sair da main box.
+flex box: colocar sempre no container pai do conteúdo.
+ctrl + k + c: comentar automaticamente um código
